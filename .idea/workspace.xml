@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc4c8e19-cedb-4b3f-9626-4121c15bcb29" name="Default Changelist" comment="" />
+    <list default="true" id="cc4c8e19-cedb-4b3f-9626-4121c15bcb29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hangman-app/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman-app/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/hangman.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/hangman.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/requests.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,52 +21,44 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hangman/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hangman/hangman.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
-                  <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hangman/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hangman/requests.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="26" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangman-app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangman-app/scripts/hangman.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hangman-app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hangman-app/styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,11 +76,15 @@
       <find>shortWord</find>
       <find>word</find>
       <find>puzzle</find>
+      <find>.from</find>
     </findStrings>
     <replaceStrings>
       <replace>word</replace>
       <replace>game</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,6 +128,9 @@
         <option value="$PROJECT_DIR$/hangman/requests.js" />
         <option value="$PROJECT_DIR$/hangman/app.js" />
         <option value="$PROJECT_DIR$/hangman/index.html" />
+        <option value="$PROJECT_DIR$/hangman-app/styles/styles.css" />
+        <option value="$PROJECT_DIR$/hangman-app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/hangman-app/index.html" />
       </list>
     </option>
   </component>
@@ -140,20 +147,52 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="35" />
+    <option name="x" value="17" />
+    <option name="y" value="85" />
     <option name="width" value="1501" />
     <option name="height" value="855" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="hangman-app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="todos-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553764822494" />
@@ -166,17 +205,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/oop" />
-      <recent name="$PROJECT_DIR$/hangman" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/todos-app" />
-      <recent name="$PROJECT_DIR$/notes-app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/notes-app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Objects" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hangman-app" />
+      <recent name="$PROJECT_DIR$/hangman-app/scripts" />
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/hangman" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,9 +263,9 @@
     <option name="totallyTimeSpent" value="16765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="35" width="1501" height="855" extended-state="0" />
+    <frame x="17" y="85" width="1501" height="855" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38313913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22549692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,9 +280,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24324325" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24324325" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,20 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos-app/todo-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todos-app/todo-functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes-app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -414,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todos-app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -435,31 +453,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/hangman.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/requests.js">
+    <entry file="file://$PROJECT_DIR$/hangman-app/scripts/requests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hangman/index.html">
+    <entry file="file://$PROJECT_DIR$/hangman-app/scripts/hangman.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="131">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos-app/todo-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos-app/todo-functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman-app/images/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman-app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman-app/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hangman-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>

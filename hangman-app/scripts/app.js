@@ -13,7 +13,14 @@ window.addEventListener('keypress', (e) => {
 })
 
 const render = () => {
-    puzzleEl.textContent = game.puzzle
+    puzzleEl.innerHTML = ''
+    // Add each letter of the puzzle into the parent div
+    Array.from(game.puzzle).forEach((letter) => {
+        const displayLetter = document.createElement('span')
+        displayLetter.textContent = letter
+        puzzleEl.appendChild(displayLetter)
+    })
+
     guessesEl.textContent = game.statusMessage
 }
 
