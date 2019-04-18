@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc4c8e19-cedb-4b3f-9626-4121c15bcb29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hangman-app/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman-app/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/hangman.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/hangman.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hangman/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/hangman-app/scripts/requests.js" afterDir="false" />
-    </list>
+    <list default="true" id="cc4c8e19-cedb-4b3f-9626-4121c15bcb29" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,6 +249,14 @@
       <workItem from="1544543064936" duration="1134000" />
       <workItem from="1545149099166" duration="700000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed directory structure and added formatting using css stylesheet">
+      <created>1555595575086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555595575086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -300,6 +300,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed directory structure and added formatting using css stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed directory structure and added formatting using css stylesheet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/temperature-conversion.js" />
