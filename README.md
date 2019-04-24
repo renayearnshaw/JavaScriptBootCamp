@@ -1,5 +1,5 @@
 # JavaScriptBootCamp
-This project contains code I wrote while following __The Modern JavaScript Bootcamp__ course by Andrew Mead
+This project contains code I wrote while following [The Modern JavaScript Bootcamp](https://www.udemy.com/course/modern-javascript/) course by Andrew Mead
 
 ### Description
 The __JavaScriptBootCamp__ project is written using ES6 and ES7 JavaScript.
@@ -7,5 +7,5 @@ The __JavaScriptBootCamp__ project is written using ES6 and ES7 JavaScript.
 <br><br>The project also contains three web applications:
 1. A note-taking app, that allows users to add, edit, delete, and save their notes.
 2. A to-do application.
-3. A hangman word game, which uses asynchronous JavaScript using Promises and Async/Await. See https://renay-earnshaw-hangman.netlify.com/.
+3. A hangman word game, which uses _Promises_ and _Async/Await_ to produce asynchronous JavaScript. See https://renay-earnshaw-hangman.netlify.com/
 
