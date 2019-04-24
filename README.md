@@ -7,5 +7,5 @@ The __JavaScriptBootCamp__ project is written using ES6 and ES7 JavaScript.
 <br><br>The project also contains three web applications:
 1. A note-taking app, that allows users to add, edit, delete, and save their notes.
 2. A to-do application.
-3. A hangman word game, which uses asynchronous JavaScript using Promises and Async/Await
+3. A hangman word game, which uses asynchronous JavaScript using Promises and Async/Await. See https://renay-earnshaw-hangman.netlify.com/.
 
