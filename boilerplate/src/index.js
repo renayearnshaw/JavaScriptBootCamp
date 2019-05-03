@@ -1,3 +1,3 @@
-import {scream} from './scream'
+import makeAScream from './scream'
 
-console.log(scream('renay'))
+console.log(makeAScream('renay'))
