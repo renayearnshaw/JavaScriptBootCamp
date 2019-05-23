@@ -1,5 +1,8 @@
 'use strict'
 
+import HangMan from './hangman'
+import getPuzzle from './requests'
+
 let game
 
 const puzzleEl = document.querySelector('#puzzle')
@@ -33,15 +36,3 @@ const startGame = async () => {
 startGame()
 
 resetButton.addEventListener('click', startGame)
-
-//getPuzzle(3).then(puzzle => {
-//    console.log(puzzle)
-//}).catch(error => {
-//    console.log(`Error: ${error}`)
-//})
-
-//getCurrentCountry().then((country) => {
-//    console.log(country.name)
-//}).catch((error) => {
-//    console.log(`Error: ${error}`)
-//})
