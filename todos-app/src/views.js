@@ -1,38 +1,13 @@
-// Fetch existing todos from localStorage
-const getSavedTodos = () => {
-    const todosJSON = localStorage.getItem('todos')
-    return todosJSON ? JSON.parse(todosJSON) : []
-}
-
-// Save todos to localStorage
-const saveTodos = (todos) => {
-    localStorage.setItem('todos', JSON.stringify(todos))
-}
-
-// Remove todo by id
-const removeTodo = (id) => {
-    const todoIndex = todos.findIndex((todo) => todo.id === id)
-
-    if (todoIndex > -1) {
-        todos.splice(todoIndex, 1)
-    }
-}
-
-// Toggle the completed value for a given todo
-const toggleTodo = (id) => {
-    const todo = todos.find((todo) => todo.id === id)
-
-    if (todo) {
-        todo.completed = !todo.completed
-    }
-}
+import { getTodos, removeTodo, toggleTodo } from './todos'
+import { getFilters } from './filters'
 
 // Render application todos based on filters
-const renderTodos = (todos, filters) => {
-    const filteredTodos = todos.filter((todo) => {
+const renderTodos = () => {
+    const filters = getFilters()
+    const filteredTodos = getTodos().filter((todo) => {
         const searchTextMatch = todo.text.toLowerCase().includes(filters.searchText.toLowerCase())
         const hideCompletedMatch = !filters.hideCompleted || !todo.completed
-        
+
         return searchTextMatch && hideCompletedMatch
     })
 
@@ -68,8 +43,7 @@ const generateTodoDOM = (todo) => {
     containerEl.appendChild(checkbox)
     checkbox.addEventListener('change', () => {
         toggleTodo(todo.id)
-        saveTodos(todos)
-        renderTodos(todos, filters)
+        renderTodos()
     })
 
     // Setup the todo text
@@ -87,8 +61,7 @@ const generateTodoDOM = (todo) => {
     todoEl.appendChild(removeButton)
     removeButton.addEventListener('click', () => {
         removeTodo(todo.id)
-        saveTodos(todos)
-        renderTodos(todos, filters)
+        renderTodos()
     })
 
     return todoEl
@@ -104,3 +77,5 @@ const generateSummaryDOM = (incompleteTodos) => {
     summaryEl.textContent = `You have ${count} todo${plural} left`
     return summaryEl
 }
+
+export { renderTodos }
