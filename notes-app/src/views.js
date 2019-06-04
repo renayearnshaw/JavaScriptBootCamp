@@ -34,9 +34,9 @@ const generateNoteDOM = (note) => {
 const renderNotes = () => {
 
     const notesEl = document.querySelector('#notes')
-    const filters = getFilters()
-    const notes = sortNotes(filters.sortBy)
-    const filteredNotes = notes.filter((note) => note.title.toLowerCase().includes(filters.searchText.toLowerCase()))
+    const { searchText, sortBy } = getFilters()
+    const notes = sortNotes(sortBy)
+    const filteredNotes = notes.filter((note) => note.title.toLowerCase().includes(searchText.toLowerCase()))
 
     notesEl.innerHTML = ''
 

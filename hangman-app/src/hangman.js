@@ -43,7 +43,7 @@ class HangMan {
         // If the letter hasn't been guessed before, process it
         if (!this.guessed.includes(letter)) {
             // Save the guess
-            this.guessed.push(letter)
+            this.guessed = [...this.guessed, letter]
             // If the guess *isn't* in the word, you lose a guess
             if (!this.word.includes(letter)) {
                 this.guessesAllowed--
